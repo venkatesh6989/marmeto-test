@@ -1,0 +1,261 @@
+<<<<<<< HEAD
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.heading{
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ddd;
+    border: none;
+    width: 16vw;
+    border-radius: 4px;
+}
+
+.tab-button{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #000;
+    color: #ddd;
+    border: none;
+}
+
+
+.product-container{
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+    .product-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.product-item{
+    margin: 10px;
+    /* background-color: #4CAF50; */
+    width: 220px;
+}
+
+
+
+.product-card {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .product-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.product-image {
+    max-width: 100%;
+    height: 40%;
+    border-radius: 10px;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+    .product-image{
+        height: 250px;
+    }
+}
+
+.badge{
+    background-color: #ddd;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.title-and-vendor{
+    display: flex;
+    align-items: center;
+}
+
+.vendor{
+    padding-left: 6px;
+}
+
+.prices-container{
+    display: flex;
+}
+
+.compare-price{
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+
+.discount{
+    color: red;
+    padding-left: 10px;
+}
+
+.add-to-cart-button {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+}
+=======
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.heading{
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ddd;
+    border: none;
+    width: 16vw;
+    border-radius: 4px;
+}
+
+.tab-button{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #000;
+    color: #ddd;
+    border: none;
+}
+
+
+.product-container{
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+    .product-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.product-item{
+    margin: 10px;
+    /* background-color: #4CAF50; */
+    width: 220px;
+}
+
+
+
+.product-card {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .product-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.product-image {
+    max-width: 100%;
+    height: 40%;
+    border-radius: 10px;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+    .product-image{
+        height: 250px;
+    }
+}
+
+.badge{
+    background-color: #ddd;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.title-and-vendor{
+    display: flex;
+    align-items: center;
+}
+
+.vendor{
+    padding-left: 6px;
+}
+
+.prices-container{
+    display: flex;
+}
+
+.compare-price{
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+
+.discount{
+    color: red;
+    padding-left: 10px;
+}
+
+.add-to-cart-button {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+}
+>>>>>>> 881ebea287e32b64231714cf900235046ca18912
